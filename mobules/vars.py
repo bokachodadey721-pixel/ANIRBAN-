@@ -3,11 +3,11 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "16818865"))
+API_HASH = environ.get("API_HASH", "2855f44c4724e69a86885f14de875a21")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-OWNER = int(environ.get("OWNER", ""))
+OWNER = int(environ.get("OWNER", "1742298685"))
 CREDIT = environ.get("CREDIT", "JIN PAPA")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
@@ -23,6 +23,7 @@ if int(OWNER) not in AUTH_USERS:
 api_url = "https://itsgolu-cp-api.vercel.app/"
 api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.
+
 
 
 
