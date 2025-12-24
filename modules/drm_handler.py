@@ -364,7 +364,7 @@ async def drm_handler(bot: Client, m: Message):
                 # call unified API as well
                 try:
                     url_norm = url
-                    api_url_call = f"https://itsgolu-cp-api.vercel.app/itsgolu?url={url_norm}@ITSGOLU_OFFICIAL&user_id=8102112566"
+                    api_url_call = f"https://itsgolu-cp-api.vercel.app/api/proxy?url={url}@ITSGOLU_OFFICIAL&user_id=8102112566"
                     resp = requests.get(api_url_call, timeout=30)
                     data = resp.json()
                     if isinstance(data, dict) and "url" in data:
